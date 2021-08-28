@@ -1,12 +1,14 @@
 //Build in progress!!!!
-import React from 'react';
+// import React from 'react';
 
-function Nav(props) {
-    //object with all parts of the nav
-    const {
-        
-    }
+// function Nav(props) {
     
-};
+//     const {
+        
+//     }
+    
+// };
 
-export default Nav;
+// export default Nav;
+
+//
