@@ -6,16 +6,16 @@ function Portfolio() {
     const [projects] = useState([
         {
             projectName: 'ReciPlanner',
-            projectImage: 'ReciplannerLanding',
+            projectImage: 'ReciPlannerLanding',
             projectGitHub: 'https://github.com/Imaparadox/reciplanner',
             projectUrl: 'https://reciplanner.herokuapp.com/'
         },
-        // {
-        //     projectName: 'title',
-        //     projectImage: 'image',
-        //     projectGitHub: 'link',
-        //     projectUrl: 'link'
-        // },
+        {
+            projectName: 'The Brokers',
+            projectImage: 'BrokersLanding',
+            projectGitHub: 'https://github.com/Imaparadox/The-Brokers',
+            projectUrl: 'https://imaparadox.github.io/The-Brokers/'
+        },
         // {
         //     projectName: 'title',
         //     projectImage: 'image',
