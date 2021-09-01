@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 //import Contact from './components/Contact';
-//import Resume from './components/Resume';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 // import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.cssr';
 
@@ -23,7 +23,7 @@ function App() {
     } else if (currentComponent === 'Contact') {
       // return <Contact />
     } else if (currentComponent === 'Resume') {
-      // return <Resume />
+      return <Resume />
     }
   }
 
