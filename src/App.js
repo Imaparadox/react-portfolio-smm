@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 //import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-// import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.cssr';
+//import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.cssr';
 
 
 //PLAN TO REFACTOR IF IT DOESN'T WORK!!!!
@@ -21,7 +21,7 @@ function App() {
     } else if (currentComponent === 'Portfolio') {
       return <Portfolio />
     } else if (currentComponent === 'Contact') {
-      // return <Contact />
+      //return <Contact />
     } else if (currentComponent === 'Resume') {
       return <Resume />
     }

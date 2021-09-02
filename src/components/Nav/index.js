@@ -20,10 +20,10 @@ function Nav(props) {
                         <li className='nav-item active'>
                             <a className='nav-link' href='#Portfolio' onClick={() => { props.setCurrentComponent('Portfolio') }}>Portfolio <span className='sr-only'></span></a>
                         </li>
-                        <li className="nav-item active">
+                        <li className='nav-item active'>
                             <a className='nav-link' href='#Contact' onClick={() => { props.setCurrentComponent('Contact') }}>Contact <span className='sr-only'></span></a>
                         </li>
-                        <li className="nav-item active">
+                        <li className='nav-item active'>
                             <a className='nav-link' href='#Resume' onClick={() => { props.setCurrentComponent('Resume') }}>Resume <span className='sr-only'></span></a>
                         </li>
                     </ul>
@@ -31,7 +31,6 @@ function Nav(props) {
             </nav>
         </header>
     )
-
 };
 
 export default Nav;
