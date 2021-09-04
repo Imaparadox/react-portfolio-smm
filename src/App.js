@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import 'animate.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
