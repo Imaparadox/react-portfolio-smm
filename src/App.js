@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-//import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.cssr';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Function that starts the application
 function App() {
@@ -27,6 +27,7 @@ function App() {
     }
   }
 
+  //returns the page components
   return (
     <div>
       <main>

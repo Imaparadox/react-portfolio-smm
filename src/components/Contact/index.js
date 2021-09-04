@@ -42,19 +42,19 @@ function ContactForm() {
             <h1>Contact Me:</h1>
             <form className='contact-form' onSubmit={formSubmit}>
                 <div className='first-name'>
-                    <label for='name'>First Name:</label>
+                    <label htmlFor='name'>First Name:</label>
                     <input type='text' className='first-name-input' name='name' defaultValue={firstName} onBlur={formChange} ></input>
                 </div>
                 <div className='last-name'>
-                    <label for='name'>Last Name:</label>
+                    <label htmlFor='name'>Last Name:</label>
                     <input type='text' className='first-name-input' name='name' defaultValue={lastName} onBlur={formChange}></input>
                 </div>
                 <div className='email'>
-                    <label for='email'>Email:</label>
+                    <label htmlFor='email'>Email:</label>
                     <input type='email' className='email-input' name='email' defaultValue={email} onBlur={formChange}></input>
                 </div>
                 <div>
-                    <label classNam='user-message' htmlFor="message">Message:</label>
+                    <label className='user-message' htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={userMessage} onBlur={formChange} />
                 </div>
                 {error && (
