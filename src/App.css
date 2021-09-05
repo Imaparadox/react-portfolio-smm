@@ -25,10 +25,12 @@ header {
 }
 
 
-/* footer {
-  position: -webkit-sticky;
-  position: sticky;
-} */
+footer {
+  /* position: fixed;  */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
 
 /* .App {
   text-align: center;
