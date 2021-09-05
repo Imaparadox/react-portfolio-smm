@@ -45,19 +45,22 @@ function Portfolio() {
         //     projectName: 'title',
         //     projectImage: 'image',
         //     projectGitHub: 'link',
+        //include gif for the url link
         //     projectUrl: 'link'
         // }
     ])
     return (
-        <div>
-            <h2 className="top-title">Portfolio</h2>
-            {projects.map((project, i) => (
-                <SingleProject
-                    project={project}
-                    key={'project' + i}
-                />
-            ))}
-        </div>
+        <section>
+            <div>
+                <h2 className="top-title">Portfolio</h2>
+                {projects.map((project, i) => (
+                    <SingleProject
+                        project={project}
+                        key={'project' + i}
+                    />
+                ))}
+            </div>
+        </section>
     );
 }
 
