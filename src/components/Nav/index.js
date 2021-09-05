@@ -5,19 +5,19 @@ import React from 'react';
 function Nav(props) {
     return (
         <header>
-            <nav className="navbar navbar-light bg-dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="/">Stephen M. Marsh</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span className="navbar-toggler-icon"></span>
+            <nav className='navbar navbar-light bg-dark'>
+                <div className='container-fluid'>
+                    <a className='navbar-brand' href="/">Stephen M. Marsh</a>
+                    <button className='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasNavbar' aria-controls='offcanvasNavbar'>
+                        <span className='navbar-toggler-icon'></span>
                     </button>
-                    <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div className="offcanvas-header">
-                            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu:</h5>
-                            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div className='offcanvas offcanvas-end' tabIndex='-1' id='offcanvasNavbar' aria-labelledby='offcanvasNavbarLabel'>
+                        <div className='offcanvas-header'>
+                            <h5 className='offcanvas-title' id='offcanvasNavbarLabel'>Menu:</h5>
+                            <button type='button' className='btn-close text-reset' data-bs-dismiss='offcanvas' aria-label='Close'></button>
                         </div>
-                        <div className="offcanvas-body">
-                            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <div className='offcanvas-body'>
+                            <ul className='navbar-nav justify-content-end flex-grow-1 pe-3'>
                                 <li className='nav-item active'>
                                     <a className='nav-link' href='#About' onClick={() => { props.setCurrentComponent('About') }}>About <span className='sr-only'></span></a>
                                 </li>

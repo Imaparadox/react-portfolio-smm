@@ -39,7 +39,7 @@ function ContactForm() {
     //returns the HTML
     return (
         <section className='container'>
-            <h2 className="top-title">Contact Me:</h2>
+            <h2 className='top-title'>Contact Me:</h2>
             <form className='contact-form' onSubmit={formSubmit}>
                 <div className='first-name'>
                     <label htmlFor='name'>First Name:</label>
@@ -54,15 +54,15 @@ function ContactForm() {
                     <input type='email' className='email-input' name='email' defaultValue={email} onBlur={formChange}></input>
                 </div>
                 <div>
-                    <label className='user-message' htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={userMessage} onBlur={formChange} />
+                    <label className='user-message' htmlFor='message'>Message:</label>
+                    <textarea name='message' rows='5' defaultValue={userMessage} onBlur={formChange} />
                 </div>
                 {error && (
                     <div>
-                        <p className="text-error">{error}</p>
+                        <p className='text-error'>{error}</p>
                     </div>
                 )}
-                <button className="submit-button" data-testid="button" type="submit">Submit</button>
+                <button className='submit-button' data-testid='button' type='submit'>Submit</button>
             </form>
         </section>
     )
