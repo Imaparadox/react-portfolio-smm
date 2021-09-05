@@ -52,7 +52,7 @@ function Portfolio() {
     return (
         <section>
             <div>
-                <h2 className="top-title">Portfolio</h2>
+                <h2 className="top-title">Portfolio:</h2>
                 {projects.map((project, i) => (
                     <SingleProject
                         project={project}

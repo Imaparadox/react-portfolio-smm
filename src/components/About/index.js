@@ -4,7 +4,7 @@ import professionalPhoto from '../../assets/images/Professional_Pic.JPEG'
 function About() {
     return (
         <section className="about-section d-flex p-2 bd-highlight">
-            <h1 className="about-title">About Me:</h1>
+            <h2 className="top-title">About Me:</h2>
             <img src={professionalPhoto} className="professional-photo" style={{ maxWidth: '100%', maxHeight: '350px' }} alt='Stephen Marsh' />
             <div className="about-text">
                 <p>

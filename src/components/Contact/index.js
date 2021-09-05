@@ -39,7 +39,7 @@ function ContactForm() {
     //returns the HTML
     return (
         <section className='container'>
-            <h1>Contact Me:</h1>
+            <h2 className="top-title">Contact Me:</h2>
             <form className='contact-form' onSubmit={formSubmit}>
                 <div className='first-name'>
                     <label htmlFor='name'>First Name:</label>

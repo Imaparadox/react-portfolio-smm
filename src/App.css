@@ -6,9 +6,23 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #1976d2;
+  --secondary-color: #81d4fa;
+  --tertiary-color: #fff176;
+  --quaternary-color: #e0e0e0;
+  --quinary-color: #424242 ;
+  --senary-color: #212121;
+}
+
 header {
   
   
+}
+
+.top-title {
+  margin-top: 20px;
+  border-bottom: 2.5px solid black;
 }
 
 .project-card {
