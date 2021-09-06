@@ -7,22 +7,33 @@
 }
 
 :root {
-  --primary-color: #1976d2;
-  --secondary-color: #81d4fa;
-  --tertiary-color: #fff176;
-  --quaternary-color: #e0e0e0;
-  --quinary-color: #424242 ;
-  --senary-color: #212121;
+  --primary-color: #0066cc;
+  --secondary-color: #4da6ff;
+  --tertiary-color: #33d6ff;
+  --quaternary-color: #000000;
+  --quinary-color: #ffffff;
+  --senary-color: #b3b3b3;
+}
+
+a {
+  text-decoration: none;
+  color: var(--quaternary-color);
+  font-weight: bold;
 }
 
 header {
+  background-image: linear-gradient(to right, var(--primary-color) , var(--tertiary-color));
+  border-bottom: 1.8px solid var(--quaternary-color);
   
+}
+
+h1 {
   
 }
 
 .top-title {
   margin-top: 20px;
-  border-bottom: 2.5px solid black;
+  border-bottom: 2.5px solid var(--quaternary-color);
 }
 
 .project-card {

@@ -10,7 +10,7 @@ function SingleProject({ project }) {
                 <img className='portfolio-img' href={projectUrl} src={projectImage} alt={projectName} />
                 <p className='proj-icons-container'>
                     <a href={projectGitHub} target='_blank' rel='noreferrer'><img src='https://img.icons8.com/material-rounded/48/000000/github.png' alt='GitHub Link' /></a>
-                    <a href={projectUrl} target='_blank' rel='noreferrer'><img className='project-icon' src='https://img.icons8.com/fluent/48/000000/domain.png' alt='URL Link' /></a>
+                    <a href={projectUrl} target='_blank' rel='noreferrer'><img src="https://img.icons8.com/material-rounded/48/000000/external-link.png" alt='URL Link'/></a>
                 </p>
             </div>
         </div>

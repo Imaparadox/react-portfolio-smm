@@ -1,13 +1,13 @@
-//Build in progress!!!!
 import React from 'react';
 
-//JSX each javascript does a specific  function based on what I want to happen.
 function Nav(props) {
     return (
         <header>
-            <nav className='navbar navbar-light bg-dark'>
+            <nav className='navbar navbar-light'>
                 <div className='container-fluid'>
-                    <a className='navbar-brand' href="/">Stephen M. Marsh</a>
+                    <h1>
+                        <a className='navbar-brand' href="/">Stephen M. Marsh</a>
+                    </h1>
                     <button className='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasNavbar' aria-controls='offcanvasNavbar'>
                         <span className='navbar-toggler-icon'></span>
                     </button>
