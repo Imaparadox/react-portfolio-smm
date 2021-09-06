@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-smm/static/css/main.da3d4b21.chunk.css",
+    "main.js": "/react-portfolio-smm/static/js/main.e9cdd9a6.chunk.js",
+    "main.js.map": "/react-portfolio-smm/static/js/main.e9cdd9a6.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-smm/static/js/runtime-main.536a84e6.js",
+    "runtime-main.js.map": "/react-portfolio-smm/static/js/runtime-main.536a84e6.js.map",
+    "static/css/2.e31ed26f.chunk.css": "/react-portfolio-smm/static/css/2.e31ed26f.chunk.css",
+    "static/js/2.715ee28b.chunk.js": "/react-portfolio-smm/static/js/2.715ee28b.chunk.js",
+    "static/js/2.715ee28b.chunk.js.map": "/react-portfolio-smm/static/js/2.715ee28b.chunk.js.map",
+    "index.html": "/react-portfolio-smm/index.html",
+    "static/css/2.e31ed26f.chunk.css.map": "/react-portfolio-smm/static/css/2.e31ed26f.chunk.css.map",
+    "static/css/main.da3d4b21.chunk.css.map": "/react-portfolio-smm/static/css/main.da3d4b21.chunk.css.map",
+    "static/js/2.715ee28b.chunk.js.LICENSE.txt": "/react-portfolio-smm/static/js/2.715ee28b.chunk.js.LICENSE.txt",
+    "static/media/BrokersLanding.52a0ec33.png": "/react-portfolio-smm/static/media/BrokersLanding.52a0ec33.png",
+    "static/media/CodeQuiz.28b094a0.png": "/react-portfolio-smm/static/media/CodeQuiz.28b094a0.png",
+    "static/media/PasswordGen.89d45296.png": "/react-portfolio-smm/static/media/PasswordGen.89d45296.png",
+    "static/media/Professional_Pic.bdddca49.JPEG": "/react-portfolio-smm/static/media/Professional_Pic.bdddca49.JPEG",
+    "static/media/ReciPlannerLanding.42bb23ae.png": "/react-portfolio-smm/static/media/ReciPlannerLanding.42bb23ae.png",
+    "static/media/WeatherDashboard.e3114129.png": "/react-portfolio-smm/static/media/WeatherDashboard.e3114129.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.536a84e6.js",
+    "static/css/2.e31ed26f.chunk.css",
+    "static/js/2.715ee28b.chunk.js",
+    "static/css/main.da3d4b21.chunk.css",
+    "static/js/main.e9cdd9a6.chunk.js"
+  ]
+}
