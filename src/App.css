@@ -27,13 +27,12 @@ header {
   
 }
 
-h1 {
-  
+hr {
+  border-radius: 4px solid var(--senary-colorr);
 }
 
 .top-title {
-  margin-top: 20px;
-  border-bottom: 2.5px solid var(--quaternary-color);
+  margin: 20px auto;
 }
 
 .project-card {
@@ -55,6 +54,10 @@ footer {
   display: flex; 
   align-items: center; 
   justify-content: center; 
+  margin-top: 45px;
+  width: 100%;
+  background-image: linear-gradient(var(--primary-color) , var(--tertiary-color));
+  border-top: 1.8px solid var(--quaternary-color);
 }
 
 /* .App {

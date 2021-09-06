@@ -4,6 +4,7 @@ function Resume() {
     return (
         <section className='container'>
             <h2 className='top-title'>My Resume:</h2>
+            <hr></hr>
             <div>
                 <div className='resume-link'>
                     <h3>Checkout My Resume:</h3>

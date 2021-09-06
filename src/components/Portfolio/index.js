@@ -53,6 +53,7 @@ function Portfolio() {
         <section>
             <div>
                 <h2 className='top-title'>Portfolio:</h2>
+                <hr></hr>
                 {projects.map((project, i) => (
                     <SingleProject
                         project={project}

@@ -40,6 +40,7 @@ function ContactForm() {
     return (
         <section className='container'>
             <h2 className='top-title'>Contact Me:</h2>
+            <hr></hr>
             <form className='contact-form' onSubmit={formSubmit}>
                 <div className='first-name'>
                     <label htmlFor='name'>First Name:</label>
