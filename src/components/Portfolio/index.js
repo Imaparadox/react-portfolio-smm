@@ -1,7 +1,7 @@
 //Build in progress!!!!
 import React, { useState } from 'react';
 import SingleProject from '../SingleProject';
-import ReciPlannerLanding from '../../assets/images/ReciPlannerLanding.png';
+import ReciLanding from '../../assets/images/ReciLanding.png';
 import BrokersLanding from '../../assets/images/BrokersLanding.png';
 import CodeQuiz from '../../assets/images/CodeQuiz.png';
 import WeatherDashboard from '../../assets/images/WeatherDashboard.png';
@@ -19,7 +19,7 @@ function Portfolio() {
         },
         {
             projectName: 'ReciPlanner',
-            projectImage: ReciPlannerLanding,
+            projectImage: ReciLanding,
             projectGitHub: 'https://github.com/Imaparadox/reciplanner',
             projectUrl: 'https://reciplanner.herokuapp.com/'
         },
