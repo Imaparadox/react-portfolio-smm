@@ -6,10 +6,17 @@ import BrokersLanding from '../../assets/images/BrokersLanding.png';
 import CodeQuiz from '../../assets/images/CodeQuiz.png';
 import WeatherDashboard from '../../assets/images/WeatherDashboard.png';
 import PasswordGen from '../../assets/images/PasswordGen.png';
+import HotSauceBossLanding from '../../assets/images/HotSauceBossLanding.png'
 // import portfolio from '../../portfolio.json'
 
 function Portfolio() {
     const [projects] = useState([
+        {
+            projectName: 'The Brokers',
+            projectImage: BrokersLanding,
+            projectGitHub: 'https://github.com/Imaparadox/The-Brokers',
+            projectUrl: 'https://imaparadox.github.io/The-Brokers/'
+        },
         {
             projectName: 'ReciPlanner',
             projectImage: ReciPlannerLanding,
@@ -17,10 +24,10 @@ function Portfolio() {
             projectUrl: 'https://reciplanner.herokuapp.com/'
         },
         {
-            projectName: 'The Brokers',
-            projectImage: BrokersLanding,
-            projectGitHub: 'https://github.com/Imaparadox/The-Brokers',
-            projectUrl: 'https://imaparadox.github.io/The-Brokers/'
+            projectName: 'Hot Sauce Boss',
+            projectImage: HotSauceBossLanding,
+            projectGitHub: 'https://github.com/JConnrO/hot-sauce-boss',
+            projectUrl: 'https://hot-sauce-boss.herokuapp.com/'
         },
         {
             projectName: 'Code quiz',
