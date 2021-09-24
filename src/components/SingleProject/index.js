@@ -8,6 +8,7 @@ function SingleProject({ project }) {
                 <img className='portfolio-img' href={projectUrl} src={projectImage} alt={projectName} />
                 {/* <img href={projectGitHub} src='https://img.icons8.com/material-rounded/48/000000/github.png' alt='GitHub Link' /> */}
                 <a className=' d-flex justify-content-center' href={projectGitHub} target='_blank' rel='noreferrer'><img src='https://img.icons8.com/material-rounded/48/000000/github.png' alt='GitHub Link' /></a>
+                <a className="thumbnail" href={projectUrl} target='_blank' rel='noreferrer'><img src="https://img.icons8.com/material-rounded/48/000000/external-link.png" alt='URL Link' /></a>
 
             </div>
 
