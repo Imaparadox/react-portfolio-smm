@@ -5,9 +5,10 @@ function Nav(props) {
         <header>
             <nav className='navbar navbar-light'>
                 <div className='container-fluid'>
-                    <h1>
+                    {/* <h1>
                         <a className='navbar-brand' href="/">Stephen M. Marsh</a>
-                    </h1>
+                    </h1> */}
+                    <h1>Stephen M. Marsh</h1>
                     <button className='navbar-toggler' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasNavbar' aria-controls='offcanvasNavbar'>
                         <span className='navbar-toggler-icon'></span>
                     </button>

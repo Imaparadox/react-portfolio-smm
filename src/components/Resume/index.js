@@ -5,7 +5,7 @@ function Resume() {
         <section className='container'>
             <h2 className='top-title'>My Resume:</h2>
             <hr></hr>
-            <div>
+            <div className='resume-content'>
                 <div className='resume-link'>
                     <h3>Checkout My Resume:</h3>
                     <a className='nav-link' href='https://github.com/Imaparadox/My-Resume' target='_blank' rel='noreferrer'>Resume</a>
