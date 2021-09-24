@@ -4,7 +4,7 @@ import 'animate.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,8 +21,8 @@ function App() {
     } else if (currentComponent === 'Portfolio') {
       return <Portfolio />
       // IMPLEMENT LATER
-      // } else if (currentComponent === 'Contact') {
-      //   return <Contact />
+      } else if (currentComponent === 'Contact') {
+        return <Contact />
     } else if (currentComponent === 'Resume') {
       return <Resume />
     }
